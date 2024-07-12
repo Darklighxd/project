@@ -1,0 +1,13 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+  li{
+    font-size: 20px; /*размер шрифта */
+    width: 150px
+  }
+   .parent{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .text {padding-right:40px;} 
