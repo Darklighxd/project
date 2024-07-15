@@ -1,0 +1,25 @@
+#center{
+  display: flex;
+  justify-content: center;
+}
+li{
+  font-size: 20px; /*размер шрифта */
+  width: 100px;
+}
+#parent{
+  display: flex;
+  justify-content:center;
+} 
+#block {
+  text-align:center;
+  width: calc((100vw/8)*2);  
+}
+#text{
+  width: calc(100vw/8);
+}
+#text2{
+  width: calc((100vw/8)*2);
+}
+/*div{
+  border: 3px solid;
+}
