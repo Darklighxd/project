@@ -1,0 +1,114 @@
+
+/*li{
+  font-size: 20px;
+  width: 100px;
+}
+#parent{
+  display: flex;
+  justify-content:center;
+} 
+#block {
+  text-align:center;
+  width: calc((100vw/8)*2);  
+}
+#text{
+  width: calc(100vw/8);
+}
+#text2{
+  width: calc((100vw/8)*2);
+}*/
+/*div{
+  border: 3px solid;
+  border-color: #d9a84a;
+}
+span{
+  color: #2312c0 
+}*/
+body {
+    background-color: #67BBCA;
+    
+  }
+.border-dotted {
+  border: 3px solid #d9a84a;
+}
+@media screen and (min-width: 1500px) {
+  li{
+    font-size: 20px; /*размер шрифта */
+  }
+  #contact{
+    font-size: 25px; /*размер шрифта контактов*/
+    font-weight: bold
+  }
+  #parent{
+    display: flex;
+    justify-content:center;
+  } 
+  #block {
+    text-align:center;
+    width: calc((100vw/8)*2);  
+  }
+  #text{
+    width: calc(100vw/8);
+  }
+  .disappear{
+    display: none;
+  }
+  #center{
+    display: flex;
+    justify-content: center;
+  }
+  #parentdisappear{
+    display: flex;
+    justify-content:center;
+  } 
+  #tsvetzagolovka{
+    color: #483bbd 
+  }
+  span{
+    color: #3C4C6C;
+  }
+  .tsvetspiska{
+    color: #3C4C6C;
+  }
+  .border-dotted {
+    border: 5px solid #d9a84a;
+    background-color:  #ECCE96;
+  }
+  .dlinna{
+    width: calc(100vw/6);
+  }
+  .dlinna2{
+    width: calc(100vw/3);
+    text-align:center;
+  }
+  .dlinna3{
+    width: calc(100vw/3.5);
+    text-align:center;
+  }
+}
+
+
+
+@media screen and (max-width:1499px) {
+  li{
+    font-size: 20px; 
+  }
+  #parent{
+    display: flex;
+    justify-content:center;
+  } 
+  #text{
+    width: 250px;
+  }
+  .disappear2{
+    display: none;
+  }
+  #center{
+    display: flex;
+    justify-content: center;}
+}
+
+
+/*ul {
+  list-style-image: url(МаркерСписка.png); /* Изображение маркера 
+ }*/
